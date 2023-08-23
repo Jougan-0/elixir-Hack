@@ -4,7 +4,8 @@ import Container from "./Container.astro";
 
 <div id="timeline">
   <Container>
-    <ol class="relative border-l border-gray-200 dark:border-gray-700">
+    <div class="grid h-screen place-items-center">
+    <ol class="relative border-l border-gray-200 dark:border-gray-700" >
       <li class="mb-10 ml-6">
         <span
           class="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900"
@@ -13,7 +14,7 @@ import Container from "./Container.astro";
             class="w-2.5 h-2.5 text-blue-800 dark:text-blue-300"
             aria-hidden="true"
             xmlns="http://www.w3.org/2000/svg"
-            loading="lazy"
+            
             fill="currentColor"
             viewBox="0 0 20 20"
           >
@@ -32,12 +33,62 @@ import Container from "./Container.astro";
         </h3>
         <time
           class="block mb-2 text-xl font-normal leading-none text-gray-400 dark:text-gray-500"
-          >6 August - 27 August</time
+          >22 August - 7 September</time
         >
-        <!-- <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
-          Get access to over 20+ pages including a dashboard layout, charts,
-          kanban board, calendar, and pre-order E-commerce & Marketing pages.
-        </p> -->
+        <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
+          Secure your participation between the 22nd of August and the 7th of September.
+        </p>
+      </li>
+     
+      <li class="mb-10 ml-6">
+        <span
+          class="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900"
+        >
+          <svg
+            class="w-2.5 h-2.5 text-blue-800 dark:text-blue-300"
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="currentColor"
+            viewBox="0 0 20 20"
+          >
+            <path
+              d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z"
+            ></path>
+          </svg>
+        </span>
+        <h3 class="mb-1 text-lg font-semibold text-gray-900 dark:text-white">
+          BlockChain Session
+        </h3>
+        <time
+          class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500"
+          >1 September (6pm)</time
+        >
+        <p class="text-base font-normal text-gray-500 dark:text-gray-400">Dive into the world of blockchain technology in a dedicated session on the 1st of September at 6pm.</p>
+      </li>
+      <li class="mb-10 ml-6">
+        <span
+          class="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900"
+        >
+          <svg
+            class="w-2.5 h-2.5 text-blue-800 dark:text-blue-300"
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="currentColor"
+            viewBox="0 0 20 20"
+          >
+            <path
+              d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z"
+            ></path>
+          </svg>
+        </span>
+        <h3 class="mb-1 text-lg font-semibold text-gray-900 dark:text-white">
+          DataVerse Session
+        </h3>
+        <time
+          class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500"
+          >3 September (6pm)</time
+        >
+        <p class="text-base font-normal text-gray-500 dark:text-gray-400">Embark on a journey of discovery during our DataVerse Session on the 3rd of September at 6pm. Delve into the intricacies of data as we unravel insights, all within the context of our meticulously aligned Figma design and the project's dynamic evolution.</p>
       </li>
       <li class="mb-10 ml-6">
         <span
@@ -60,10 +111,12 @@ import Container from "./Container.astro";
         </h3>
         <time
           class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500"
-          >2 September (6pm)</time
+          >7 September (6pm)</time
         >
-        <!-- <p class="text-base font-normal text-gray-500 dark:text-gray-400">All of the pages and components are first designed in Figma and we keep a parity between the two versions even as we update the project.</p> -->
+        <p class="text-base font-normal text-gray-500 dark:text-gray-400">Join us for an illuminating Orientation Session on the 7th of September at 6pm. Gain comprehensive insights into our project's intricacies and pathways, guided by our commitment to harmonizing Figma design with the project's ongoing evolution.</p>
       </li>
+
+  
       <li class="mb-10 ml-6">
         <span
           class="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900"
@@ -81,129 +134,17 @@ import Container from "./Container.astro";
           </svg>
         </span>
         <h3 class="mb-1 text-lg font-semibold text-gray-900 dark:text-white">
-          Speaker Sessions
-        </h3>
-        <time
-          class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500"
-          >3 September</time
-        >
-        <!-- <p class="text-base font-normal text-gray-500 dark:text-gray-400">
-          Get started with dozens of web components and interactive elements
-          built on top of Tailwind CSS.
-        </p> -->
-      </li>
-      <li class="mb-10 ml-6">
-        <span
-          class="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900"
-        >
-          <svg
-            class="w-2.5 h-2.5 text-blue-800 dark:text-blue-300"
-            aria-hidden="true"
-            xmlns="http://www.w3.org/2000/svg"
-            fill="currentColor"
-            viewBox="0 0 20 20"
-          >
-            <path
-              d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z"
-            ></path>
-          </svg>
-        </span>
-        <h3 class="mb-1 text-lg font-semibold text-gray-900 dark:text-white">
-          Round 1 Idea Presentation
-        </h3>
-        <time
-          class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500"
-          >4-5 September</time
-        >
-        <!-- <p class="text-base font-normal text-gray-500 dark:text-gray-400">
-          Get started with dozens of web components and interactive elements
-          built on top of Tailwind CSS.
-        </p> -->
-      </li>
-      <li class="mb-10 ml-6">
-        <span
-          class="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900"
-        >
-          <svg
-            class="w-2.5 h-2.5 text-blue-800 dark:text-blue-300"
-            aria-hidden="true"
-            xmlns="http://www.w3.org/2000/svg"
-            fill="currentColor"
-            viewBox="0 0 20 20"
-          >
-            <path
-              d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z"
-            ></path>
-          </svg>
-        </span>
-        <h3 class="mb-1 text-lg font-semibold text-gray-900 dark:text-white">
-          Round 1 Results
-        </h3>
-        <time
-          class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500"
-          >7th September</time
-        >
-        <!-- <p class="text-base font-normal text-gray-500 dark:text-gray-400">
-          Get started with dozens of web components and interactive elements
-          built on top of Tailwind CSS.
-        </p> -->
-      </li>
-      <li class="mb-10 ml-6">
-        <span
-          class="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900"
-        >
-          <svg
-            class="w-2.5 h-2.5 text-blue-800 dark:text-blue-300"
-            aria-hidden="true"
-            xmlns="http://www.w3.org/2000/svg"
-            fill="currentColor"
-            viewBox="0 0 20 20"
-          >
-            <path
-              d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z"
-            ></path>
-          </svg>
-        </span>
-        <h3 class="mb-1 text-lg font-semibold text-gray-900 dark:text-white">
-          Round 2 Coding Phase (36hr)
+          Hackathon (36hr)
         </h3>
         <time
           class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500"
           >8 September - 9 September</time
         >
-        <!-- <p class="text-base font-normal text-gray-500 dark:text-gray-400">
-          Get started with dozens of web components and interactive elements
-          built on top of Tailwind CSS.
-        </p> -->
+        <p class="text-base font-normal text-gray-500 dark:text-gray-400">
+          Ignite innovation during our intensive 36-hour Hackathon from the 8th to the 9th of September.
+        </p>
       </li>
-      <li class="mb-10 ml-6">
-        <span
-          class="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900"
-        >
-          <svg
-            class="w-2.5 h-2.5 text-blue-800 dark:text-blue-300"
-            aria-hidden="true"
-            xmlns="http://www.w3.org/2000/svg"
-            fill="currentColor"
-            viewBox="0 0 20 20"
-          >
-            <path
-              d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z"
-            ></path>
-          </svg>
-        </span>
-        <h3 class="mb-1 text-lg font-semibold text-gray-900 dark:text-white">
-          Final Pitches to judges
-        </h3>
-        <time
-          class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500"
-          >10 September</time
-        >
-        <!-- <p class="text-base font-normal text-gray-500 dark:text-gray-400">
-          Get started with dozens of web components and interactive elements
-          built on top of Tailwind CSS.
-        </p> -->
-      </li>
+    
       <li class="ml-6">
         <span
           class="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900"
@@ -225,13 +166,13 @@ import Container from "./Container.astro";
         </h3>
         <time
           class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500"
-          >2 September</time
+          >15 September</time
         >
-        <!-- <p class="text-base font-normal text-gray-500 dark:text-gray-400">
-          Get started with dozens of web components and interactive elements
-          built on top of Tailwind CSS.
-        </p> -->
+        <p class="text-base font-normal text-gray-500 dark:text-gray-400">
+          Witness the apex of our efforts on the 15th of September. 
+        </p>
       </li>
     </ol>
+   </div>
   </Container>
 </div>

@@ -1,7 +1,7 @@
 ---
 import Container from "./Container.astro"
 import healthcare from "../images/healthcare.svg"
-import open from "../images/open.svg"
+import open from "../images/edtech.svg"
 import ar from "../images/ar.svg"
 import web3 from "../images/web3.svg"
 import book from "../images/edtech.svg"
@@ -15,19 +15,12 @@ import book from "../images/edtech.svg"
   <Container>
     <div class="relative">
       <div class="flex items-center justify-center -space-x-2">
-        <img
-          loading="lazy"
-          width="400"
-          height="400"
-          src="./images/avatars/avatar.webp"
-          alt="member photo"
-          class="h-8 w-8 rounded-full object-cover"
-        />
+        
         <img
           loading="lazy"
           width="200"
           height="200"
-          src="./images/avatars/avatar-2.webp"
+          src={healthcare}
           alt="member photo"
           class="h-12 w-12 rounded-full object-cover"
         />
@@ -35,7 +28,7 @@ import book from "../images/edtech.svg"
           loading="lazy"
           width="200"
           height="200"
-          src="./images/avatars/avatar-3.webp"
+          src={ar}
           alt="member photo"
           class="z-10 h-16 w-16 rounded-full object-cover"
         />
@@ -43,23 +36,16 @@ import book from "../images/edtech.svg"
           loading="lazy"
           width="200"
           height="200"
-          src="./images/avatars/avatar-4.webp"
+          src={book}
           alt="member photo"
           class="relative h-12 w-12 rounded-full object-cover"
         />
-        <img
-          loading="lazy"
-          width="200"
-          height="200"
-          src="./images/avatars/avatar-1.webp"
-          alt="member photo"
-          class="h-8 w-8 rounded-full object-cover"
-        />
+        
       </div>
       <div class="mt-6 m-auto space-y-6 md:w-8/12 lg:w-7/12">
         <h1 class="text-center text-4xl font-bold text-gray-800 dark:text-white md:text-5xl">Join The Journey</h1>
         <p class="text-center text-xl text-gray-600 dark:text-gray-300">
-          Be a part of the millions of people around the world using Tailus in modern User Interfaces.
+          Be a part of an exciting Community and embrace the experience.
         </p>
         <div class="flex flex-wrap justify-center gap-6">
           <a
