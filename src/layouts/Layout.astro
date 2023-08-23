@@ -27,8 +27,18 @@ import AppHeader from "../components/AppHeader.astro"
 		font-family: Urbanist, sans-serif;
 		scroll-behavior: smooth;
 	}
-
+	
 	body {
 		margin: 0;
 	}
 </style>
+<script>
+	const btns = document.getElementsByClassName('NavItem');
+	const toggleNavCheckbox = document.getElementById('toggle_nav') as HTMLInputElement;
+for (const btn of btns) {
+    btn.addEventListener("click", tap);
+}
+function tap() {
+    toggleNavCheckbox.checked = !toggleNavCheckbox.checked;
+}
+</script>
