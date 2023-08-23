@@ -4,184 +4,71 @@ import Container from "./Container.astro"
 ---
 
 <div id="blog">
-  <Container>
-      <div class="mb-12 space-y-2 text-center">
-        <h2 class="text-3xl font-bold text-gray-800 md:text-4xl dark:text-white">PRIZES</h2>
-        
-      </div>
-      <div class="grid gap-8 md:grid-cols-1 lg:grid-cols-1">
-        <div class="group p-1 sm:p-2 rounded-3xl bg-white border border-gray-100 dark:shadow-none dark:border-gray-700 dark:bg-gray-800 bg-opacity-50 shadow-2xl shadow-gray-600/10">
-          <!-- <div class="relative overflow-hidden rounded-xl">
-            <img src="/images/clients/platinum.png"
-            alt="platinum" loading="lazy" width="1000" height="667" class="h-64 w-full object-cover object-top transition duration-500 group-hover:scale-105"/>
-          </div> -->
-          <div class="mt-6 relative">
-            <h3 class="text-5xl font-semibold text-white dark:text-white mb-12 space-y-2 text-center">
-                Platinum
-            </h3>
-            <br>
-            <div class="flex justify-between items-center pl-40 pr-40 mt-2 mb-4 text-gray-600 dark:text-gray-300">
-              <img src="./images/clients/dataverseOS.svg" alt="DataverseOS" class="h-32 w-auto" loading="lazy">
-              <img src="./images/clients/Devfolio.svg" alt="Devfolio" class="h-16 w-auto" loading="lazy">
-              <img src="./images/clients/polygon.svg" alt="Polygon" class="h-32 w-auto" loading="lazy">
-            </div>
+  <div class="flex flex-col px-10">
+
+    <div class="mb-12 space-y-2 text-center">
+      <h2 class="text-3xl font-bold text-gray-800 md:text-4xl dark:text-white">PRIZES</h2>
+    </div>
+
+    <div class="flex flex-col gap-8">
+
+      <div class="flex flex-col gap-8">
+        <div class="flex flex-col gap-2 px-4 md:p-8 rounded-3xl bg-white border border-gray-100 dark:shadow-none dark:border-gray-700 dark:bg-gray-800 bg-opacity-50 shadow-2xl shadow-gray-600/10">
+          <h3 class="text-4xl pt-5 font-semibold text-gray-800 dark:text-gray-300 text-center">
+            Platinum
+          </h3>
+          <br>
+          <div class="flex gap-4 items-center flex-row flex-wrap justify-evenly">
+            <img src="./images/clients/dataverseOS.svg" alt="DataverseOS" class="h-12 w-12 md:h-20 md:w-20" loading="lazy">
+            <img src="./images/clients/Devfolio-white.svg" alt="Devfolio" class="w-32 md:w-48" loading="lazy">
+            <img src="./images/clients/polygon.svg" alt="Polygon" class="h-24 md:h-32" loading="lazy">
           </div>
-        </div>
-
-        <div class="group p-6 sm:p-8 rounded-3xl bg-white border border-gray-100 dark:shadow-none dark:border-gray-700 dark:bg-gray-800 bg-opacity-50 shadow-2xl shadow-gray-600/10">
-          <!-- <div class="relative overflow-hidden rounded-xl">
-            <img src="/images/clients/platinum.png"
-            alt="platinum" loading="lazy" width="1000" height="667" class="h-64 w-full object-cover object-top transition duration-500 group-hover:scale-105"/>
-          </div> -->
-          <div class="mt-6 relative">
-            <h3 class="text-5xl font-semibold text-white dark:text-white mb-12 space-y-2 text-center">
-                Gold
-            </h3>
-            <br>
-            <div class="flex justify-between items-center pl-40 pr-40 mt-2 mb-4 text-gray-600 dark:text-gray-300">
-              <img src="./images/clients/Quillaudits.svg" alt="Quillaudits" class="h-12 w-auto" loading="lazy">
-              <img src="./images/clients/gmc.svg" alt="GMC" class="h-12 w-auto" loading="lazy">
-            </div>
-          </div>
-        </div>
-
-        <div class="group p-6 sm:p-8 rounded-3xl bg-white border border-gray-100 dark:shadow-none dark:border-gray-700 dark:bg-gray-800 bg-opacity-50 shadow-2xl shadow-gray-600/10">
-          <!-- <div class="relative overflow-hidden rounded-xl">
-            <img src="/images/clients/platinum.png"
-            alt="platinum" loading="lazy" width="1000" height="667" class="h-64 w-full object-cover object-top transition duration-500 group-hover:scale-105"/>
-          </div> -->
-          <div class="mt-6 relative">
-            <h3 class="text-5xl font-semibold text-white dark:text-white mb-12 space-y-2 text-center">
-              Silver
-            </h3>
-            <br>
-            <div class="flex justify-between items-center pl-40 pr-40 mt-2 mb-4 text-gray-600 dark:text-gray-300">
-              <img src="./images/clients/filecoin.svg" alt="FileCoin" class="h-12 w-auto" pl-6 loading="lazy">
-              <img src="./images/clients/Replit.svg" alt="Replit" class="h-12 w-auto" loading="lazy">
-              <img src="./images/clients/solana.svg" alt="Solana" class="h-12 w-auto" loading="lazy">
-            </div>
-          </div>
-        </div>
-
-        <div class="group p-6 sm:p-8 rounded-3xl bg-white border border-gray-100 dark:shadow-none dark:border-gray-700 dark:bg-gray-800 bg-opacity-50 shadow-2xl shadow-gray-600/10">
-          <!-- <div class="relative overflow-hidden rounded-xl">
-            <img src="/images/clients/platinum.png"
-            alt="platinum" loading="lazy" width="1000" height="667" class="h-64 w-full object-cover object-top transition duration-500 group-hover:scale-105"/>
-          </div> -->
-          <div class="mt-6 relative">
-            <h3 class="text-5xl font-semibold text-white dark:text-white mb-12 space-y-2 text-center">
-              Bronze
-            </h3>
-            <br>
-            <div class="flex justify-between items-center pl-40 pr-40 mt-2 mb-4 text-gray-600 dark:text-gray-300">
-              <img src="./images/clients/interview-cake.svg" alt="InterviewCake" class="h-8 w-auto" pl-6 loading="lazy">
-              <img src="./images/clients/interviewBuddy.svg" alt="InterviewBuddy" class="h-12 w-auto"  loading="lazy">
-              <img src="./images/clients/axure.svg" alt="Axure" class="h-3 w-auto" loading="lazy">
-              <img src="./images/clients/XYZ-Logo.svg" alt="xyz" class="h-12 w-auto" loading="lazy">
-              <img src="./images/clients/verbwire.svg" alt="Verbwire" class="h-8 w-auto" loading="lazy">
-            </div>
-          </div>
-        </div>
-
-
-        <!-- <div class="group p-6 sm:p-8 rounded-3xl bg-white border border-gray-100 dark:shadow-none dark:border-gray-700 dark:bg-gray-800 bg-opacity-50 shadow-2xl shadow-gray-600/10">
-          <div class="relative overflow-hidden rounded-xl">
-            <img src="/images/clients/gold.png"
-            alt="art cover" loading="lazy" width="1000" height="667" class="h-64 w-full object-cover object-top transition duration-500 group-hover:scale-105"/>
-          </div>
-          <div class="mt-6 relative">
-            <h3 class="text-2xl font-semibold text-gray-800 dark:text-gray-300 mb-12 space-y-2 text-center">
-              Gold
-             </h3>
-             <p class="mt-6 mb-8 text-gray-600 dark:text-gray-300 ">
-              <ul class="flex items-center space-x-2 pl-6">
-                <li class="font-semibold text-gray-800 dark:text-gray-300 list-disc">Quillaudits</li><br>
-                <li class="pl-6"><img src="./images/clients/Quillaudits.svg" alt="Quillaudits" class="h-12 w-auto" loading="lazy"></li>
-            </ul>
-            <br>
-            <ul class="flex items-center space-x-2 pl-6">
-                <li class="font-semibold text-gray-800 dark:text-gray-300 list-disc">Give My Certificate</li><br>
-                <li class="pl-6"><img src="./images/clients/gmc.svg" alt="GMC" class="h-12 w-auto" loading="lazy"></li>
-            </ul>
-                
-             </p>
-          </div>
-          
-        </div>
-        <div class="group p-6 sm:p-8 rounded-3xl bg-white border border-gray-100 dark:shadow-none dark:border-gray-700 dark:bg-gray-800 bg-opacity-50 shadow-2xl shadow-gray-600/10">
-          <div class="relative overflow-hidden rounded-xl">
-            <img src="/images/clients/silver.png"
-            alt="art cover" loading="lazy" width="1000" height="667" class="h-64 w-full object-cover object-top transition duration-500 group-hover:scale-105"/>
-          </div>
-          <div class="mt-6 relative">
-            <h3 class="text-2xl font-semibold text-gray-800 dark:gray-300 mb-12 space-y-2 text-center">
-             Silver
-             </h3>
-             <p class="mt-6 mb-8 text-gray-600 dark:text-white ">
-              
-              <ul class="flex items-center space-x-2 pl-6">
-                <li class="font-semibold text-gray-800 list-disc dark:text-gray-300" >FileCoin</li><br>
-                <li class="pl-6"><img src="./images/clients/filecoin.svg" alt="FileCoin" class="h-12 w-auto" pl-6 loading="lazy"></li>
-            </ul>
-            <br>
-            <ul class="flex items-center space-x-2 pl-6">
-                <li class="font-semibold text-gray-800 list-disc dark:text-gray-300">Replit</li><br>
-                <li class="pl-6"><img src="./images/clients/Replit.svg" alt="Replit" class="h-12 w-auto" loading="lazy"></li>
-            </ul>
-            <br>
-            <ul class="flex items-center space-x-2 pl-6">
-                <li class="font-semibold text-gray-800 list-disc dark:text-gray-300">Solana</li><br>
-                <li class="pl-6"><img src="./images/clients/solana.svg" alt="Solana" class="h-12 w-auto" loading="lazy"></li>
-            </ul>
-
-             </p>
-          </div>
-          
-        </div>
-
-        <div class="group p-6 sm:p-8 rounded-3xl bg-white border border-gray-100 dark:shadow-none dark:border-gray-700 dark:bg-gray-800 bg-opacity-50 shadow-2xl shadow-gray-600/10">
-          <div class="relative overflow-hidden rounded-xl">
-            <img src="/images/clients/bronze.png"
-            alt="art cover" loading="lazy" width="1000" height="667" class="h-64 w-full object-cover object-top transition duration-500 group-hover:scale-105"/>
-          </div>
-          <div class="mt-6 relative">
-            <h3 class="text-2xl font-semibold text-gray-800 dark:text-gray-300 mb-12 space-y-2 text-center">
-             Bronze
-             </h3>
-
-             <p class="mt-6 mb-8 text-gray-600 dark:text-white ">
-
-              <ul class="flex items-center space-x-2 pl-6">
-                <li class="font-semibold text-gray-800 list-disc dark:text-gray-300" >Interview Cake</li><br>
-                <li class="pl-6"><img src="./images/clients/interview-cake.svg" alt="InterviewCake" class="h-8 w-auto" pl-6 loading="lazy"></li>
-            </ul>
-            <br>
-            <ul class="flex items-center space-x-2 pl-6">
-                <li class="font-semibold text-gray-800 list-disc dark:text-gray-300">Interview Buddy</li><br>
-                <li class="pl-6"><img src="./images/clients/interviewBuddy.svg" alt="InterviewBuddy" class="h-12 w-auto"  loading="lazy"></li>
-            </ul>
-            <br>
-            <ul class="flex items-center space-x-2 pl-6">
-                <li class="font-semibold text-gray-800 list-disc dark:text-gray-300">Axure</li><br>
-                <li class="pl-6"><img src="./images/clients/axure.svg" alt="Axure" class="h-3 w-auto" loading="lazy"></li>
-            </ul>
-            <br>
-            <ul class="flex items-center space-x-2 pl-6">
-                <li class="font-semibold text-gray-800 list-disc dark:text-gray-300">.XYZ</li><br>
-                <li class="pl-6"><img src="./images/clients/XYZ-Logo.svg" alt="xyz" class="h-12 w-auto" loading="lazy"></li>
-            </ul>
-            <br>
-            <ul class="flex items-center space-x-2 pl-6">
-                <li class="font-semibold text-gray-800 list-disc dark:text-gray-300">Verbwire</li><br>
-                <li class="pl-6"><img src="./images/clients/verbwire.svg" alt="Verbwire" class="h-8 w-auto" loading="lazy"></li>
-            </ul>
-
-             </p>
-
-             
-          </div> -->
-          
         </div>
       </div>
-  </Container>
+
+      <div class="flex flex-col gap-8">
+        <div class="flex flex-col gap-2 px-4 md:p-8 rounded-3xl bg-white border border-gray-100 dark:shadow-none dark:border-gray-700 dark:bg-gray-800 bg-opacity-50 shadow-2xl shadow-gray-600/10">
+          <h3 class="text-4xl pt-5 font-semibold text-gray-800 dark:text-gray-300 text-center">
+            Gold
+          </h3>
+          <br>
+          <div class="flex gap-4 items-center pb-10 flex-row flex-wrap justify-evenly">
+            <img src="./images/clients/Quillaudits.svg" alt="Quillaudits" class="h-12 md:h-24 w-auto" loading="lazy">
+            <img src="./images/clients/gmc.svg" alt="GMC" class="h-12 md:h-24 w-auto" loading="lazy">
+          </div>
+        </div>
+      </div>
+
+      <div class="flex flex-col gap-8">
+        <div class="flex flex-col gap-2 px-4 md:p-8 rounded-3xl bg-white border border-gray-100 dark:shadow-none dark:border-gray-700 dark:bg-gray-800 bg-opacity-50 shadow-2xl shadow-gray-600/10">
+          <h3 class="text-4xl pt-5 font-semibold text-gray-800 dark:text-gray-300 text-center">
+            Silver
+          </h3>
+          <br>
+          <div class="flex gap-4 items-center flex-row flex-wrap justify-evenly">
+            <img src="./images/clients/filecoin.svg" alt="FileCoin" class="h-12 md:h-32" loading="lazy">
+            <img src="./images/clients/Replit.svg" alt="Replit" class="h-12 md:h-32" loading="lazy">
+            <img src="./images/clients/solana.svg" alt="Solana" class="h-6 md:h-12" loading="lazy">
+          </div>
+        </div>
+      </div>
+
+      <div class="flex flex-col gap-8">
+        <div class="flex flex-col gap-2 px-4 md:p-8 rounded-3xl bg-white border border-gray-100 dark:shadow-none dark:border-gray-700 dark:bg-gray-800 bg-opacity-50 shadow-2xl shadow-gray-600/10">
+          <h3 class="text-4xl pt-5 font-semibold text-gray-800 dark:text-gray-300 text-center">
+            Bronze
+          </h3>
+          <br>
+          <div class="flex gap-4 items-center pb-10 flex-row flex-wrap justify-evenly">
+            <img src="./images/clients/interview-cake.svg" alt="InterviewCake" class="h-8 md:h-16 w-auto md:pl-4 lg:pl-6 lg:pr-2" loading="lazy">
+            <img src="./images/clients/interviewBuddy.svg" alt="InterviewBuddy" class="h-8 md:h-16 w-auto md:px-4" loading="lazy">
+            <img src="./images/clients/axure.svg" alt="Axure" class="h-6 md:h-12 w-auto md:px-4 lg:pl-2" loading="lazy">
+            <img src="./images/clients/XYZ-Logo.svg" alt="xyz" class="h-8 md:h-16 w-auto md:pl-4 lg:pl-6 lg:pr-2" loading="lazy">
+            <img src="./images/clients/verbwire.svg" alt="Verbwire" class="h-8 md:h-16 w-auto md:px-4" loading="lazy">
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
 </div>
