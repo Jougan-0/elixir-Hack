@@ -1,6 +1,7 @@
 ---
 import AppFooter from "../components/AppFooter.astro";
 import AppHeader from "../components/AppHeader.astro"
+import codechef from "../images/LOGOFINAL.png"
 ---
 
 
@@ -9,7 +10,7 @@ import AppHeader from "../components/AppHeader.astro"
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<link rel="icon" type="image/svg+xml" href={codechef} />
 		<meta name="generator" content={Astro.generator} />
 		<meta name="description" content="Embrace The New Journey.">
 		<title>Live The Code</title>
@@ -27,8 +28,18 @@ import AppHeader from "../components/AppHeader.astro"
 		font-family: Urbanist, sans-serif;
 		scroll-behavior: smooth;
 	}
-
+	
 	body {
 		margin: 0;
 	}
 </style>
+<script>
+	const btns = document.getElementsByClassName('NavItem');
+	const toggleNavCheckbox = document.getElementById('toggle_nav') as HTMLInputElement;
+for (const btn of btns) {
+    btn.addEventListener("click", tap);
+}
+function tap() {
+    toggleNavCheckbox.checked = !toggleNavCheckbox.checked;
+}
+</script>
