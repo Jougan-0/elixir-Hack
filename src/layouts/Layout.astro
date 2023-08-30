@@ -21,6 +21,7 @@ import codechef from "../images/LOGOFINAL.png"
 		<AppHeader/>
 		<slot />
 		<AppFooter/>
+		
 	</body>
 </html>
 <style>
@@ -33,13 +34,3 @@ import codechef from "../images/LOGOFINAL.png"
 		margin: 0;
 	}
 </style>
-<script>
-	const btns = document.getElementsByClassName('NavItem');
-	const toggleNavCheckbox = document.getElementById('toggle_nav') as HTMLInputElement;
-for (const btn of btns) {
-    btn.addEventListener("click", tap);
-}
-function tap() {
-    toggleNavCheckbox.checked = !toggleNavCheckbox.checked;
-}
-</script>
